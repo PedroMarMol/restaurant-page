@@ -3,7 +3,7 @@ function createHome() {
     home.classList.add('home');
     
     const restaurantImage = document.createElement('img');
-    restaurantImage.src = '../images/restaurant.jpg';
+    restaurantImage.src = 'images/restaurant.jpg';
     restaurantImage.alt = 'restaurant place';
 
     home.appendChild(createParagraph('A wide variety of really well made burgers'))

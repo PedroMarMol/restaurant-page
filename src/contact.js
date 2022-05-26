@@ -9,7 +9,7 @@ function createContact() {
     address.textContent = '🛣️ Calle Doctor Civera 35, Jaen, Spain';
 
     const restaurantLocation = document.createElement('img');
-    restaurantLocation.src = '../images/restaurant-location.png';
+    restaurantLocation.src = 'images/restaurant-location.png';
     restaurantLocation.alt = 'Martos Burgers location';
 
     contact.appendChild(phoneNumber);
