@@ -5,10 +5,9 @@ function createMenu() {
     menu.appendChild(createMenuItem("BlackHole", "Bacon, pickles, cheddar, onion, mayo, chicken black bread"));
     menu.appendChild(createMenuItem("Classic", "Pickles, tomatoes, cheddar, lettuce, onion and double meat"));
     menu.appendChild(createMenuItem("EggBurst", "Fried egg, 200g meat, fresh bacon and emmental"));
-    menu.appendChild(createMenuItem("Teriyaki", "Teriyaki chicken, pickles, lettuce, tomatoes and onion"));
-    menu.appendChild(createMenuItem("Chicken", "Lettuce, tomato, special Martos sauce, emmental and chicken"));
-    menu.appendChild(createMenuItem("Double", "tomatoes, cheddar, caramelised onion, lettuce and double big meat"));
-    menu.appendChild(createMenuItem("Rustic", "Rustic bread, pulled pork, fried egg, cheddar and lettuce"));
+    menu.appendChild(createMenuItem("Teriyaki", "Teriyaki chicken, lettuce, tomatoes and onion"));
+    menu.appendChild(createMenuItem("Chicken", "Lettuce, special Martos sauce, emmental and chicken"));
+    menu.appendChild(createMenuItem("Double", "tomatoes, cheddar and double big meat"));
 
     return menu;
 }
