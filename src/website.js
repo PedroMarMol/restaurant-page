@@ -39,7 +39,7 @@ function createNav() {
 
     const contactButton = document.createElement('button');
     contactButton.classList.add('button-nav');
-    contactButton.textContent = 'Menu';
+    contactButton.textContent = 'Contact';
     contactButton.addEventListener('click', (e) => {
         if (e.target.classList.contains('active')) return;
         setActiveButton(contactButton);
